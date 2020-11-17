@@ -13,7 +13,7 @@ function Layout({ children, router, title, description, backButton }) {
                 <nav>
                     {backButton && <span onClick={router.back} className='backButton'>&#x2b05;</span>}
                     <Link href='/'>
-                        <a><span className='main-title'>Hacker Next</span></a>
+                        <a><span className='main-title'>Hacker News Next</span></a>
                     </Link>
                 </nav>
                 {children}
