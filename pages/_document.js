@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 class MyDocument extends Document {
  render() {
   return (
-   <Html>
+   <Html lang='en'>
     <Head>
      {/* theme for mobile and web icon */}
      <link rel="manifest" href="/static/manifest.json" />
